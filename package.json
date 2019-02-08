@@ -1,0 +1,27 @@
+{
+	"name": "week00-blog",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start:dev": "NODE_ENV=development nodemon src/index.js",
+		"start:prod": "node_modules/pm2/bin/pm2 start src/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"consolidate": "^0.15.1",
+		"cors": "^2.8.5",
+		"dotenv": "^6.2.0",
+		"express": "^4.16.4",
+		"firebase-admin": "^7.0.0",
+		"handlebars": "^4.1.0",
+		"helmet": "^3.15.0",
+		"nodemon": "^1.18.9",
+		"pm2": "^3.2.9",
+		"showdown": "^1.9.0",
+		"socket.io": "^2.2.0"
+	}
+}
